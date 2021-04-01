@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/regp2"
+    tools:context=".Register">
+
+
+    <ImageButton
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_chevron"
+        android:layout_marginTop="18dp"
+        android:layout_marginLeft="20dp">
+
+    </ImageButton>
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="260dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="150dp"
+        android:background="@drawable/eml"
+        android:hint="    EMAIL"
+        android:inputType="textEmailAddress"
+        android:paddingLeft="40dp"
+        android:textColorHint="#000">
+
+    </EditText>
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="260dp"
+        android:layout_height="40dp"
+        android:hint="    PASSWORD"
+        android:inputType="textPassword"
+        android:paddingLeft="40dp"
+        android:background="@drawable/pass"
+        android:layout_gravity="center"
+        android:textColorHint="#000"
+        android:layout_marginTop="10dp">
+
+    </EditText>
+    <EditText
+        android:id="@+id/regNo"
+        android:layout_width="260dp"
+        android:layout_height="40dp"
+        android:hint="    REG NO"
+        android:inputType="number|text"
+        android:paddingLeft="40dp"
+        android:background="@drawable/regn"
+        android:layout_gravity="center"
+        android:textColorHint="#000"
+        android:layout_marginTop="10dp">
+
+    </EditText>
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="260dp"
+        android:layout_height="40dp"
+        android:hint="    FULL NAME"
+        android:inputType="text"
+        android:paddingLeft="40dp"
+        android:background="@drawable/nme"
+        android:layout_gravity="center"
+        android:textColorHint="#000"
+        android:layout_marginTop="10dp">
+
+    </EditText>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+
+        >
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="121dp"
+            android:layout_height="105dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="40dp"
+            android:background="@drawable/ic_account_box_black_24dp">
+
+        </ImageView>
+        <Button
+            android:id="@+id/uploadImage"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="50dp"
+            android:layout_alignParentEnd="true"
+            android:background="@drawable/pas"
+            android:layout_marginTop="30dp">
+
+        </Button>
+
+
+    </RelativeLayout>
+    <Button
+        android:id="@+id/submitData"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:background="@drawable/sub"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#000"
+        android:textSize="20sp"
+        >
+
+    </Button>
+
+</LinearLayout>

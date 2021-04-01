@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/logp2"
+    tools:context=".Login">
+
+
+
+    <ImageButton
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_chevron"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp">
+
+    </ImageButton>
+
+<EditText
+    android:id="@+id/emailLogin"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:hint="    EMAIL"
+    android:inputType="textEmailAddress"
+    android:paddingLeft="40dp"
+    android:background="@drawable/eml"
+    android:textColorHint="#000"
+    android:layout_marginTop="270dp"
+    android:layout_gravity="center">
+
+</EditText>
+    <EditText
+        android:id="@+id/passwordLogin"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:hint="    PASSWORD"
+        android:inputType="textPassword"
+        android:paddingLeft="40dp"
+    android:background="@drawable/pass"
+    android:textColorHint="#000"
+    android:layout_marginTop="20dp"
+    android:layout_gravity="center">
+
+</EditText>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Remember me"
+        android:textColor="#881A6B"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="20dp">
+
+    </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Forgot Password?"
+            android:textColor="#3561D9"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="50dp"
+            android:layout_marginLeft="90dp"
+            android:layout_marginTop="20dp">
+
+        </TextView>
+
+    </RelativeLayout>
+<Button
+    android:id="@+id/loginBtn"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@drawable/log1"
+    android:textColor="#987"
+    android:textSize="20sp"
+    android:layout_marginTop="70dp">
+
+</Button>
+
+</LinearLayout>

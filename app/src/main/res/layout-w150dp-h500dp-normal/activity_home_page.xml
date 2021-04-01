@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/backgroundci"
+    tools:context=".HomePage"
+    tools:ignore="MissingDefaultResource">
+
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/imageView1"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="20dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            />
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignEnd="@+id/imageView1"
+            android:layout_marginTop="100dp"
+            android:id="@+id/floatingActionButton"
+            android:background="@drawable/ic_photo_library_black_24dp"/>
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NAME:"
+            android:layout_marginLeft="20dp"
+            android:textColor="#f0f8ff"
+            android:textSize="20sp">
+
+        </TextView>
+
+        <TextView
+
+            android:id="@+id/text2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_marginTop="35dp"
+            android:layout_marginLeft="20dp"
+            android:text="REG NO:"
+            android:textColor="#f0f8ff">
+        </TextView>
+
+        <TextView
+            android:id="@+id/text_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_marginLeft="100dp"
+            android:textAllCaps="true"
+            android:textColor="#f0f8ff">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/text_regNo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_marginTop="35dp"
+            android:layout_marginLeft="100dp"
+            android:textColor="#f0f8ff">
+
+        </TextView>
+    </RelativeLayout>
+    <TextView
+        android:id="@+id/tt_table"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:text="TIME TABLE"
+        android:textColor="#f0f8ff">
+
+    </TextView>
+
+    <ImageView
+        android:id="@+id/image_t"
+        android:layout_width="320dp"
+        android:layout_height="150dp"
+        android:background="@drawable/t_table"
+        android:layout_gravity="center"
+        android:layout_marginTop="0dp">
+
+    </ImageView>
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/button_u"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/u_material"
+            android:text="Upload\n Material"
+            android:textColor="#f0f8ff">
+
+        </Button>
+
+        <Button
+            android:id="@+id/button_d"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/d_material"
+            android:text=" Download\n Material"
+            android:textColor="#f0f8ff">
+        </Button>
+</RelativeLayout>
+        <Button
+            android:id="@+id/button_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Class Info"
+            android:background="@drawable/class_info"
+           android:layout_gravity="center"
+            android:textColor="#f0f8ff"
+            android:layout_marginTop="10dp"
+            >
+        </Button>
+</LinearLayout>
